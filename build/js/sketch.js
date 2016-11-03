@@ -55,7 +55,7 @@ function setup() {
 
   var output = createCanvas(img.width/2, img.height/2);
   output.parent(diagram);
-  Synth.init();
+  Synthesizer.init();
   
   background(255);
   image(img, 0, 0, img.width/2, img.height/2);
