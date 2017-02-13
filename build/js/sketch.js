@@ -76,18 +76,8 @@ function setText () {
   fill(150);
   textSize(32);
   text1 = createP('Click points to play:');
-  text2 = createP("F = " + kons/540 + " Hz");
-  button = createButton('stop sound')
   
   text1.position(25, 70);
-  button.position(25, 105);
-  text2.position(25, 125);
-
-  button.mousePressed(stopSound);
-
-  synthControl = createDiv("<h3>Sound Settings<h3>");
-  synthControl.attribute("id", "synth");
-  synthControl.parent(response);
   
   output = createDiv('<h3>Currently playing:</h3>');
   output.attribute('id', 'output');

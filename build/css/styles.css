@@ -1,104 +1,98 @@
-/* Optional: Import normalisation: */
-@import 'normalize.css';
-
 /* ---------------------------------------------------------
-CSS - Template
+   CSS - Template
 
-Add your prefered Styles here
----------------------------------------------------------*/
+   Add your prefered Styles here
+   ---------------------------------------------------------*/
 
-  body {
+
+    /* Optional: Import normalisation:
+    @import 'normalize.css'; */
+
+    body {
     font-size: 100%;
     font-family: Helvetica, sans-serif;
-  }
+    margin: 0;
+    padding: 0;
+    }
 
-  h1 { 
-    font-size: 1.5rem;
-  }
+    h1 { 
+      font-size: 1.5rem;
+    }
 
-  p {
-    font-size: 0.75rem;
-  }
+    p {
+      font-size: 0.75rem;
+    }
+
   /* ----------------------------------------------------------
    * Styling the form  
    * ----------------------------------------------------------*/
 
-  form {
-    /*font-size: 0.75rem; */
-  }
+    label {
+      padding: 0 5px 0 0;
+      vertical-align: middle;
+      float: left;
+    }
 
-  fieldset {
-    float: left;
-    width: 44%;
-  }
+    input[type=range] {
+      width: 68%;
+      padding: 0 1%;
+    }
 
-  input {
-    font-size: 0.75rem;
-    padding: 0.2rem 0rem 0.2rem 0.2rem;
-  }
+    input[type=text] {
+      width: 28%;
+      float: left;
+    }
 
-  input[type = range] {
-    vertical-align: middle;
-  }
+    input[type=select] {
+      width: 28%;
+      float: left;
+    }
 
-  input[type = button] {
-    padding: 0.28rem 0.4rem 0.28rem 0.4rem;
-    margin: 0 0.4rem 0 0.4rem;
-    vertical-align: middle;
-  }
+    input[type=button] {
+      width: 28%;
+    }
 
-  label {
-    font-size: 0.75rem;
-    vertical-align: middle;
-  }
   
   /* ----------------------------------------------------------
    * Styling the Layout 
    * ----------------------------------------------------------*/
 
+  
   header {
-    padding: 0 1rem;
-    float: left;
-    background-color: #fff;
-    width: 100%;
-    height: 55px; 
+      padding: 1rem;
+      float: left;
+      background-color: #ddd;
+      width: 100%;
   }
 
   footer {
-    clear: both;
+      clear: both;
   }
-
+    
   #wrap {
-    /*padding: 20px;*/
-    /*max-width: 1160px;
-    min-width: 900px;
-    width: 1160px;*/
-    width: 100%;
-    padding: 1.724137931%;
-    margin: 0 auto;
+    padding: 2rem;
+    width: 1160px;
+    margin: 0 auto; 
+    /*width: 100%;
+    padding: 1.724137931%;*/
   }
-  
 
   #diagram {
     float: left;
-    min-width: 636px;
+    /*min-width: 636px;*/
     /*width: 54.827586207%;
     z-index: 0;*/
   }
 
   #response {
-    float: left;
-    width: 484px;
-    min-width: 300px;
-
-    /* width: 484px; 
-    max-width: 484px;
-    max-width: 41.724137931%;
-    z-index: 10;*/
-    
+      padding: 1rem;
+      float: left;
+      background-color: #eee;
+      min-width: 400px;
   }
 
-  #synth {
+
+/*  #synth {
     float: left;
     min-width: 300px;
     max-width: 1160px;
@@ -112,14 +106,8 @@ Add your prefered Styles here
     clear: top;
     background-color: #eee;
     padding: 1rem;
-  }
+  }*/
 
-
-  /* Default link styling */
-  a:link { color:#0271fb; }
-  a:visited { color:#bd02fb; }
-  a:hover, a:focus { color:#000; }
-  a:active { color:#fb0e02; }
 
 
 
